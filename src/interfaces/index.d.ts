@@ -10,3 +10,12 @@ export interface IPost {
   createdAt: string;
   category: ICategory;
 }
+export interface IMovie {
+  id: string;
+  title: string;
+  director: string;
+  year: string;
+  color: "false" | "true";
+  duration: number;
+  user_id: number;
+}
